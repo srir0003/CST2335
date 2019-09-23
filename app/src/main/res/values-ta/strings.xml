@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Vanakam</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">CLICK HERE</string>
+    <string name="CheckBox">Click this out!</string>
+    <string name="Switch">Check this out!</string>
+    <string name="hint">Type here</string>
 
 </resources>

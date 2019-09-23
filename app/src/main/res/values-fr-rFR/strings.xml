@@ -2,5 +2,9 @@
 <resources>
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Bonjour</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">Cliquez ici</string>
+    <string name="CheckBox">Cliquez ici!</string>
+    <string name="Switch">Cliquez ici!</string>
+    <string name="hint">Écrivez ici</string>
+
 </resources>
