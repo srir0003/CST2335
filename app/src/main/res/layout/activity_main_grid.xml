@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_rowSpan="4"
         android:layout_columnSpan="1"
-        android:layout_weight="1"
         android:gravity="fill"
         android:text="@string/ButtonText"
         android:textAlignment="center" />
@@ -33,15 +32,13 @@
         android:layout_height="wrap_content"
         android:layout_rowSpan="4"
         android:layout_columnSpan="1"
-        android:layout_weight="1"
-        android:gravity="fill"
+        android:layout_gravity="fill"
         android:text="@string/CheckBox" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flag"
-        android:layout_weight="1"
         android:gravity="fill"
         android:layout_rowSpan="4"
         android:layout_columnSpan="1"/>

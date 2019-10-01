@@ -17,7 +17,6 @@
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/text1"
-        android:layout_weight="1"
         android:gravity="fill"
         android:text="@string/ButtonText"
         android:textAlignment="center" />
@@ -27,7 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/CheckBox"
-        android:layout_weight="1"
         android:gravity="fill"
         android:layout_toRightOf="@id/button1"
         android:layout_below="@id/text1"/>
@@ -38,7 +36,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flag"
-        android:layout_weight="1"
         android:gravity="fill"
         android:layout_below="@id/button1"/>
 
@@ -57,6 +54,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/image1"
         android:hint="@string/hint"
-        android:inputType="textPersonName"/>
+        android:inputType="textPersonName" />
 
 </RelativeLayout>

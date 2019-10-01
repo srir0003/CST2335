@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Labs</string>
-    <string name="hello_message">Vanakam</string>
+    <string name="hello_message">Look at my GUI</string>
     <string name="ButtonText">CLICK HERE</string>
     <string name="CheckBox">Click this out!</string>
     <string name="Switch">Check this out!</string>
     <string name="hint">Type here</string>
+    <string name="email">Enter your email address:</string>
+    <string name="hintL">Type email here</string>
+    <string name="password">Type your Password:</string>
+    <string name="hintP">Password</string>
+    <string name="login">Login</string>
+    <string name="profile">Your profile</string>
+    <string name="name">Your name:</string>
+    <string name="hintN">Enter your name</string>
+    <string name="email1">Your email:</string>
+    <string name="hintE">Enter your email</string>
+    <string name="picture">Your picture:</string>
+    <string name="picture_button">Click the button above to take a picture</string>
 
 </resources>

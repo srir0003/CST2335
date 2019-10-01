@@ -6,5 +6,20 @@
     <string name="CheckBox">Cliquez ici!</string>
     <string name="Switch">Cliquez ici!</string>
     <string name="hint">Écrivez ici</string>
+    <string name="email">Entrez votre adresse email:</string>
+    <string name="hintL">Tapez email ici</string>
+    <string name="password">Tapez votre mot de passe:</string>
+    <string name="hintP">mot de passe</string>
+    <string name="login">Sidentifier</string>
+    <string name="profile">Votre profil</string>
+    <string name="name">Votre nom:</string>
+    <string name="hintN">Entrez votre nom</string>
+    <string name="email1">Entrez votre:</string>
+    <string name="hintE">Entrer votre Email</string>
+    <string name="picture">ta photo:</string>
+    <string name="picture_button">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
+
+
+
 
 </resources>
