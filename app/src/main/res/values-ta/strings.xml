@@ -18,5 +18,9 @@
     <string name="hintE">Enter your email</string>
     <string name="picture">Your picture:</string>
     <string name="picture_button">Click the button above to take a picture</string>
+    <string name="Gotochattext">Go to chat</string>
+    <string name="SendText">Send</string>
+    <string name="ReceivedText">Receive</string>
+    <string name="ChatHint">Type here</string>
 
 </resources>

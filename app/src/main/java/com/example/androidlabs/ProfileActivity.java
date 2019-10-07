@@ -7,6 +7,7 @@ import android.util.Log;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.provider.MediaStore;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,10 +15,10 @@ public class ProfileActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     ImageButton takePicture;
-
+    Button gotoChatBt;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
 
-    private void dispatchTakePictureIntent()
+   private void dispatchTakePictureIntent()
     {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null)
@@ -57,11 +58,22 @@ public class ProfileActivity extends AppCompatActivity {
 
 
             Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            if (takePictureIntent.resolveActivity(getPackageManager()) != null)
+            {
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
             }
 
         });
+
+        gotoChatBt = findViewById(R.id.lab4Button);
+        gotoChatBt.setOnClickListener(c -> {
+            Intent goToChatPage = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            startActivity(goToChatPage);
+
+        });
+
+
+
         Log.d(ACTIVITY_NAME, "In function: onCreate()");
     }
 

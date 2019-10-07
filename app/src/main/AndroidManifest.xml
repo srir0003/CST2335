@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ChatRoomActivity"/>
+        <activity android:name=".Message"/>
     </application>
 
 </manifest>
