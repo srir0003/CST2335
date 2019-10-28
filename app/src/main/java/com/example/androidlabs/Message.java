@@ -4,16 +4,19 @@ public class Message
 {
     public String message;
     public boolean isSent;
+    public long id;
 
-    public Message(String message, boolean isSent)
+    public Message(long id, String message, boolean isSent)
     {
         this.message = message;
         this.isSent = isSent;
+        this.id = id;
     }
 
     public Message()
     {
     }
+
 
     public String getMessage()
     {
@@ -33,5 +36,15 @@ public class Message
     public void setSent(boolean sent)
     {
         isSent = sent;
+    }
+
+    public long getId()
+    {
+        return id;
+    }
+
+    public void setId(long id)
+    {
+        this.id = id;
     }
 }
