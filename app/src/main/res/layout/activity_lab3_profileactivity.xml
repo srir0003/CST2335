@@ -17,7 +17,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hintN"/>
+        android:hint="@string/hintN"
+        android:inputType="textPersonName"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -28,7 +29,8 @@
         android:id="@+id/ed3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hintE"/>
+        android:hint="@string/hintE"
+        android:inputType="textEmailAddress"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -47,11 +49,39 @@
         android:layout_height="wrap_content"
         android:text="@string/picture_button"/>
 
-    <Button
-        android:id="@+id/lab4Button"
+    <RelativeLayout
+        android:id="@+id/nestRelativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Gotochattext"
-        android:onClick="sendMessage"/>
+        android:layout_height="166dp">
+
+        <Button
+            android:id="@+id/lab4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:onClick="sendMessage"
+            android:text="@string/Gotochattext" />
+
+        <Button
+            android:id="@+id/ForecastButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lab4Button"
+            android:layout_centerInParent="true"
+            android:text="@string/check_forecast" />
+
+        <Button
+            android:id="@+id/goToToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ForecastButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="@string/goto_toolbar" />
+
+
+    </RelativeLayout>
+
 
 </LinearLayout>

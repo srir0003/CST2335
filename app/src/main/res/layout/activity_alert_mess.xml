@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/alertMess"
+        android:layout_width="183dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/user_icon"
+        android:src="@drawable/icons8_user_50" />
+
+    <TextView
+        android:id="@+id/alertTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_mess" />
+
+
+    <EditText
+        android:id="@+id/alertEV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint" />
+
+</LinearLayout>

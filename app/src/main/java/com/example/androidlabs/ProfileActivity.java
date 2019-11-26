@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class ProfileActivity extends AppCompatActivity {
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -72,9 +73,21 @@ public class ProfileActivity extends AppCompatActivity {
 
         });
 
+        Button goToWeather = findViewById(R.id.ForecastButton);
+        goToWeather.setOnClickListener(btn -> {
+            Intent goToForeCast = new Intent(ProfileActivity.this, WeatherForecast.class);
+            startActivity(goToForeCast);
 
+        });
 
-        Log.d(ACTIVITY_NAME, "In function: onCreate()");
+        Button goToToolbarTest = findViewById(R.id.goToToolbar);
+        goToToolbarTest.setOnClickListener(btn -> {
+            Intent goToToolbar = new Intent(ProfileActivity.this, TestToolbar.class);
+            startActivity(goToToolbar);
+
+        });
+
+        Log.e(ACTIVITY_NAME, "In function: onCreate()");
     }
 
     @Override

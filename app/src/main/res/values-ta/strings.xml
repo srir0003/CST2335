@@ -22,5 +22,16 @@
     <string name="SendText">Send</string>
     <string name="ReceivedText">Receive</string>
     <string name="ChatHint">Type here</string>
+    <string name="weather_pic">Weather Picture</string>
+    <string name="check_forecast">Weather Forecast</string>
+    <string name="goto_toolbar">Go to Toolbar page</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="overflow_choice">Overflow choice</string>
+    <string name="alert_mess">What is your new message?</string>
+    <string name="user_icon">Image</string>
+
+
 
 </resources>

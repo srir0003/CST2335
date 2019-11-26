@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    tools:context=".ChatRoomActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@id/list_Lab4"/>
 
     <ListView
         android:id="@+id/list_Lab4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-         />
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
 
-
-    <RelativeLayout
-        android:id="@+id/buttons"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        >
-
-        <Button
+    <Button
             android:id="@+id/SendBt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:text="@string/SendText"
-            />
+            android:layout_alignParentBottom="true"
+            android:text="@string/SendText" />
 
-        <EditText
+    <EditText
             android:id="@+id/ChatEdit"
-            android:layout_width="match_parent"
+            android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:hint="@string/ChatHint"
-            android:layout_toEndOf="@+id/SendBt"
-            android:layout_toStartOf="@+id/receiveBt"
-            />
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/SendBt"
+            android:layout_marginBottom="0dp" />
 
         <Button
             android:id="@+id/receiveBt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ReceivedText"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@id/list_Lab4"
             />
     </RelativeLayout>
 
-</RelativeLayout>
